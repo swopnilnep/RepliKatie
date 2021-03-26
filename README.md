@@ -1,4 +1,4 @@
-# Replikatie
+# RepliKatie
 
 Fork of Moodle-Downloader-2 adapted to work with [Katie](katie.luther.edu)
 
