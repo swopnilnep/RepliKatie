@@ -3,5 +3,9 @@
 /debugging-moodle
 __pycache__
 
+/data
+/mvenv
+Cookies.txt
+moodle_state.db
 config.json
 MoodleDownloader.log
