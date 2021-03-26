@@ -1,0 +1,8 @@
+{
+  "moodle_domain": "katie.luther.edu",
+  "moodle_path": "./data",
+  "download_submissions": true,
+  "download_descriptions": true,
+  "download_links_in_descriptions": false,
+  "download_also_with_cookie": true
+}
