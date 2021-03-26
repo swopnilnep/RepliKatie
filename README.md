@@ -1,6 +1,6 @@
 # RepliKatie
 
-Fork of Moodle-Downloader-2 adapted to work with [Katie](katie.luther.edu)
+Fork of [Moodle-Downloader-2](https://github.com/C0D3D3V/Moodle-Downloader-2) adapted to work with [Katie](https://katie.luther.edu)
 
 ### Features
 - Watch your Moodle account for any added or changed files in your enrolled courses.
