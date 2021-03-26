@@ -1,7 +1,6 @@
-# Moodle Downloader 2
+# Replikatie
 
-> Because manually downloading all the course files every few days is just ~~way too easy~~ inefficient.
-
+Fork of Moodle-Downloader-2 adapted to work with [Katie](katie.luther.edu)
 
 ### Features
 - Watch your Moodle account for any added or changed files in your enrolled courses.
