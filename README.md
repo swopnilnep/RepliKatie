@@ -4,26 +4,22 @@ Fork of [Moodle-Downloader-2](https://github.com/C0D3D3V/Moodle-Downloader-2) ad
 
 ### Features
 - Watch your Moodle account for any added or changed files in your enrolled courses.
-- Optionally get notified via mail, XMPP or [Telegram](https://telegram.org/apps) about these changes.
+- Optionally get notified via email, XMPP or [Telegram](https://telegram.org/apps) about any changes.
 - Save yourself precious time through all these nice features.
 - Do not miss any files, if files are deleted online, they are still available offline.
 
 
 ### Setup
-If you use *Arch Linux*, you can install the package [from AUR](https://aur.archlinux.org/packages/moodle-dl-git/), otherwise you can follow this procedure:
 
 1. Install [Python](https://www.python.org/) >=3.7
-2. Install [ffmpeg](https://github.com/C0D3D3V/Moodle-Downloader-2/wiki/Installing-ffmpeg)
-3. Run `pip install moodle-dl` as administrator. </br>
-    <sup>(To upgrade from an older Version use `pip install -U moodle-dl` instead)</sup>
-4. Run `moodle-dl --init` in the desired download directory.
-
-
-If you run the program on **Windows**, please use [Powershell or CMD](https://www.isunshare.com/windows-10/5-ways-to-open-windows-powershell-in-windows-10.html). Please do not use a mintty like MINGW or similar.
+2. (Optional) Install [ffmpeg](https://github.com/C0D3D3V/Moodle-Downloader-2/wiki/Installing-ffmpeg)
+3. Run `pip install moodle-dl` as administrator. </br> This is optional and will be used to convert any YouTube videos to `.mkv` when that are linked in your courses.
+4. Run `moodle-dl --init` in the desired download directory and go through your setup process. Make sure to select which courses you would like to download, otherwise it will download courses from all your years at Luther.
+5. Run `moodle-dl` afterwards to fetch course content. 
+6. (Optional) You may also use `cron` to periodically fetch content if you don't want to do it manually. Instructions are in the Wiki. 
+7. (Optional) Setup notifications using Telegram, or email.
 
 <sup>[Click here for an alternative setup with Docker](https://github.com/C0D3D3V/Moodle-Downloader-2/wiki/Run-with-Docker)</sup>
-
-
 
 ### Usage
 - `moodle-dl`
